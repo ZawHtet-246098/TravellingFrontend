@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+body {
+  background: "#rgb(234,232,224)";
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Gentium Book Plus", serif;
+}
+
+* {
+  /* font-family: 'Noto Sans JP' !important; */
+  font-family: "Merriweather", serif;
+  /* overflow-x: hidden; */
+}
+
+@media screen and (max-width: 500px) {
+  html {
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,20 @@
+.location-search-input {
+  /* height: 60px; */
+  border-color: none;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
+}
+
+.input-field {
+  width: 500px;
+  height: 60px;
+  background-color: white;
+  border-bottom: 1px black dotted;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
+}
