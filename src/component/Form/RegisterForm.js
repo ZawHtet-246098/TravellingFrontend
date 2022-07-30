@@ -146,7 +146,8 @@ const RegisterForm = () => {
             {isSignup ? "Sign Up" : "Sign In"}
           </Button>
           <GoogleLogin
-            clientId="564033717568-bu2nr1l9h31bhk9bff4pqbenvvoju3oq.apps.googleusercontent.com"
+            // clientId="564033717568-bu2nr1l9h31bhk9bff4pqbenvvoju3oq.apps.googleusercontent.com"
+            clientId="577541634834-7jdd0e719pdc2aph9eg6dhftjvo1g18p.apps.googleusercontent.com"
             render={(renderProps) => (
               <Button
                 className={classes.googleButton}
