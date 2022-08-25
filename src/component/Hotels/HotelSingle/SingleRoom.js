@@ -166,7 +166,7 @@ const SingleRoom = ({
                 }
               />
               <FormControlLabel
-                value={`${breakfast}`}
+                value={breakfast !== undefined ? `${breakfast}` : "49"}
                 control={<Radio color="primary" />}
                 className={classes.smallRadioButton}
                 label={
