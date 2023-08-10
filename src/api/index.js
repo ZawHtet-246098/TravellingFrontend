@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const API = axios.create({ baseURL: "http://localhost:5000" });
-const API = axios.create({ baseURL: "https://test-vercel-a3as.vercel.app/" });
+const API = axios.create({ baseURL: "https://travel-backend-mu.vercel.app/" });
 // const API = axios.create({
 //   baseURL: "https://travelapi-2022713.herokuapp.com",
 // });
